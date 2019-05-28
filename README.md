@@ -16,4 +16,6 @@ BenchmarkByteSliceWithPool-8                                 	  500000	      563
 BenchmarkBufferNoPool-8                                      	  500000	      3037 ns/op	    1088 B/op	      12 allocs/op
 BenchmarkBufferWithPool-8                                    	  300000	      6963 ns/op	    1408 B/op	      14 allocs/op
 BenchmarkBufferAndDataWithPool-8                             	  300000	     11068 ns/op	    1568 B/op	      15 allocs/op
+PASS
+ok  	github.com/nassor/buffer-on-pool	60.998s
 ```
